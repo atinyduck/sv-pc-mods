@@ -1,0 +1,13 @@
+{
+	"Name": "Supply Hay Stack Silo",
+	"Author": "SlyCooperFan1",
+	"Version": "1.0.1",
+	"Description": "Replaces the Silo with a stack of hay and miscellaneous supplies! Originally by Flor3nce2456, ported to Content Patcher by SlyCooperFan1.",
+	"UniqueID": "SlyCooperFan1.SupplyHayStackSilo",
+	"MinimumApiVersion": "2.10.0",
+	"UpdateKeys": [ "Nexus:3653", ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.6.0"
+	}
+}

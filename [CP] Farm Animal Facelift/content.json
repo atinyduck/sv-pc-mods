@@ -1,0 +1,260 @@
+{
+	"Format": "2.0.0",
+      
+
+"ConfigSchema": {
+    "White Cow": {
+	"AllowValues": "white, solid, holstein, vanilla",
+	 "Default": "holstein"
+	},
+    "Brown Cow": {
+	"AllowValues": "brown, solid, black, highland, void, vanilla",
+	 "Default": "brown"
+	},
+    "Pig": {
+	"AllowValues": "pink, black, white, tamworth, black spots, brown spots, void, vanilla",
+	 "Default": "pink"
+	},
+    "Goat": {
+	"AllowValues": "blonde, white, black, brown, white blaze, black blaze, void, vanilla",
+	 "Default": "blonde"
+	},
+    "Sheep": {
+	"AllowValues": "suffolk, black, white, void, bighorn, vanilla",
+	 "Default": "white"
+	},
+    "Duck": {
+	"AllowValues": "mallard, brown, black, white, void, vanilla",
+	 "Default": "mallard"
+	},
+    "Rabbit": {
+	"AllowValues": "blonde, black, white, brown, blonde blaze, brown blaze, black blaze, brown spots, black spots, void, vanilla",
+	 "Default": "blonde"
+	},
+    "Void Chicken": {
+	"AllowValues": "void, space, vanilla",
+	 "Default": "void"
+	},
+      "Dinosaur": {
+	"AllowValues": "green, void, vanilla",
+	 "Default": "green"
+	},
+      "Ostrich": {
+	"AllowValues": "brown, void, vanilla",
+	 "Default": "brown"
+	},
+     "Chicken": {
+	"AllowValues": "edited, vanilla",
+	 "Default": "edited"
+	},
+
+
+
+    },
+
+  "Changes": [
+      
+ 
+
+     {
+          "Action": "Load",
+          "Target": "Animals/White Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/white chicken.png"
+       },
+ 	 {
+          "Action": "Load",
+          "Target": "Animals/BabyWhite Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/white chicken_baby.png"
+       },
+	{
+          "Action": "Load",
+          "Target": "Animals/Brown Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/brown chicken.png"
+       },
+      {
+          "Action": "Load",
+          "Target": "Animals/BabyBrown Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/brown chicken_baby.png"
+       },
+	{
+          "Action": "Load",
+          "Target": "Animals/Blue Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/blue chicken.png"
+       },
+     {
+          "Action": "Load",
+          "Target": "Animals/BabyBlue Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/blue chicken_baby.png"
+       },
+	{
+          "Action": "Load",
+          "Target": "Animals/Golden Chicken",
+		"When": {"Chicken": "edited" },
+          "FromFile": "assets/golden chicken.png"
+	},
+     {
+          "Action": "Load",
+          "Target": "Animals/BabyGolden Chicken",
+		"When": { "Chicken": "edited" },
+          "FromFile": "assets/golden chicken_baby.png"
+       },
+
+
+
+ 
+
+ {
+          "Action": "Load",
+          "Target": "Animals/Ostrich",
+	  "FromFile": "assets/ostrich/{{Ostrich}}.png",
+		"When": {"Ostrich": "brown, void"}
+       },
+
+      {
+          "Action": "Load",
+          "Target": "Animals/BabyOstrich",
+	  "FromFile": "assets/ostrich/{{Ostrich}}_baby.png",
+		"When": {"Ostrich": "brown, void"}
+       },  
+
+
+     
+      {
+          "Action": "Load",
+          "Target": "Animals/Dinosaur",
+ 	  "FromFile": "assets/dinosaur/{{Dinosaur}}.png",
+		"When": {"Dinosaur": "green, void"}
+       },
+     
+      {
+          "Action": "Load",
+          "Target": "Animals/Duck",
+          "FromFile": "assets/duck/{{Duck}}.png",
+		"When": {"Duck": "mallard, brown, black, white, void"}
+       },
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Duckling",
+          "FromFile": "assets/chicken/void_baby.png",
+		"When": {"Duck": "void"}
+       },
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Pig",
+          "FromFile": "assets/pig/{{Pig}}.png",
+		"When": {"Pig": "pink, black, white, tamworth, black spots, brown spots, void"}
+	},
+
+	{
+          "Action": "Load",
+          "Target": "Animals/BabyPig",
+          "FromFile": "assets/pig/{{Pig}}_baby.png",
+		"When": {"Pig": "pink, black, white, tamworth, black spots, brown spots, void"}
+       },
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Goat",
+          "FromFile": "assets/goat/{{Goat}}.png",
+       		"When": {"Goat": "blonde, white, black, brown, white blaze, black blaze, void"}
+       },
+      {
+          "Action": "Load",
+          "Target": "Animals/BabyGoat",
+          "FromFile": "assets/goat/{{Goat}}_baby.png",
+      		"When": {"Goat": "blonde, white, black, brown, white blaze, black blaze, void"}
+       },
+
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Rabbit",
+          "FromFile": "assets/rabbit/{{Rabbit}}.png",
+		"When": {"Rabbit": "blonde, black, white, brown, blonde blaze, brown blaze, black blaze, brown spots, black spots, void"}
+       },
+	 {
+          "Action": "Load",
+          "Target": "Animals/BabyRabbit",
+         "FromFile": "assets/rabbit/{{Rabbit}}_baby.png",
+		"When": {"Rabbit": "blonde, black, white, brown, blonde blaze, brown blaze, black blaze, brown spots, black spots, void"}
+       },
+
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Sheep",
+          "FromFile": "assets/sheep/{{Sheep}}.png",
+		"When": {"Sheep": "suffolk, white, black, void, bighorn"}
+       },
+	{
+          "Action": "Load",
+          "Target": "Animals/ShearedSheep",
+          "FromFile": "assets/sheep/{{Sheep}}_sheared.png",
+		"When": {"Sheep": "suffolk, white, black, void, bighorn"}
+       },
+ 	{
+          "Action": "Load",
+          "Target": "Animals/BabySheep",
+          "FromFile": "assets/sheep/{{Sheep}}_baby.png",
+       		"When": {"Sheep": "suffolk, white, black, void, bighorn"}
+       },
+
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Void Chicken",
+          "FromFile": "assets/chicken/{{Void Chicken}}.png",
+		"When": {"Void Chicken": "void, space"}
+       },
+
+      {
+          "Action": "Load",
+          "Target": "Animals/BabyVoid Chicken",
+          "FromFile": "assets/chicken/{{Void Chicken}}_baby.png",
+		"When": {"Void Chicken": "void, space"}
+       },
+
+
+      {
+          "Action": "Load",
+          "Target": "Animals/White Cow",
+          "FromFile": "assets/white cow/{{White Cow}}.png",
+		"When": {"White Cow": "white, solid, holstein"}
+       },
+	{
+          "Action": "Load",
+          "Target": "Animals/BabyWhite Cow",
+	  "FromFile": "assets/white cow/{{White Cow}}_baby.png",
+		"When": {"White Cow": "white, solid, holstein"}
+       },
+
+      {
+          "Action": "Load",
+          "Target": "Animals/Brown Cow",
+ 	  "FromFile": "assets/brown cow/{{Brown Cow}}.png",
+		"When": {"Brown Cow": "brown, solid, black, highland, void"}
+       },
+      {
+          "Action": "Load",
+          "Target": "Animals/BabyBrown Cow",
+          "FromFile": "assets/brown cow/{{Brown Cow}}_baby.png",
+		"When": {"Brown Cow": "brown, solid, black, highland, void"}
+       },
+
+
+
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Simple Tea Expansion",
+  "Author": "birdb",
+  "Version": "1.3",
+  "Description": "Adds more types of tea.",
+  "UniqueID": "bb.moreTea",
+  "UpdateKeys": [ "Nexus: 26113" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

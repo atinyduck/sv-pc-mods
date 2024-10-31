@@ -1,0 +1,21 @@
+{
+	"Format": "1.6",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Buildings/Silo",
+			"FromFile": "SupplyHayStack.png",
+			"When": {
+				"Weather:Snow": "false"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Buildings/Silo",
+			"FromFile": "SupplyHayStack-Snow.png",
+			"When": {
+				"Weather": "Snow"
+			}
+		}
+	]
+}
