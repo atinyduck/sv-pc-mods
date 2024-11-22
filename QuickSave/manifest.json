@@ -1,7 +1,7 @@
 ﻿{
   "Name": "QuickSave",
   "Author": "DeLiXx",
-  "Version": "1.0.2",
+  "Version": "1.1.1",
   "Description": "F5 to Quicksave, F7 to Quickload",
   "UniqueID": "DLX.QuickSave",
   "EntryDll": "QuickSave.dll",
